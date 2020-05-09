@@ -38,9 +38,12 @@
 }
 
 .card {
-  width: 100px;
-  height:100px;
-
+  --cardwidth: calc(92vw / 5);
+  display: inline-block;
+  margin: 5px;
+  width: var(--cardwidth);
+  height: calc (var(--cardwidth)*1.4);
+  border: 1px solid black;
 }
 
 .card img {
